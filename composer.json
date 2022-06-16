@@ -1,0 +1,44 @@
+{
+    "name": "horizom/validation",
+    "description": "A fast, extensible & stand-alone PHP input validation class that allows you to validate any data.",
+    "license": "MIT",
+    "homepage": "https://github.com/horizom/validation",
+    "version": "1.0.0",
+    "keywords": [
+        "validation",
+        "validator",
+        "validate"
+    ],
+    "authors": [
+        {
+            "name": "Roland Edi",
+            "homepage": "https://github.com/lambirou"
+        },
+        {
+            "name": "Sean Nieuwoudt",
+            "homepage": "https://wixelhq.com"
+        },
+        {
+            "name": "Filis Futsarov",
+            "homepage": "https://filis.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-intl": "*",
+        "ext-bcmath": "*",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validation\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
