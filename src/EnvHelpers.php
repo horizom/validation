@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers\Validation;
+namespace Horizom\Validation;
 
 /**
  * Helpers that are environment dependant.

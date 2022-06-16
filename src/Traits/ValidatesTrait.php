@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Helpers\Validation\Traits;
+namespace Horizom\Validation\Traits;
 
-use App\Helpers\Validation\EnvHelpers;
-use App\Helpers\Validation\ValidationException;
+use Horizom\Validation\EnvHelpers;
+use Horizom\Validation\ValidationException;
 use DateTime;
 
 trait ValidatesTrait

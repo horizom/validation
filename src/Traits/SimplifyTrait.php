@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers\Validation\Traits;
+namespace Horizom\Validation\Traits;
 
 trait SimplifyTrait
 {
