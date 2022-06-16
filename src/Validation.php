@@ -131,7 +131,8 @@ class Validation
      */
     public function __construct(string $lang = 'en')
     {
-        $lang_file_location = __DIR__ . DIRECTORY_SEPARATOR . 'langs' . DIRECTORY_SEPARATOR . $lang . '.php';
+        $ds = DIRECTORY_SEPARATOR;
+        $lang_file_location = __DIR__ . $ds . 'langs' . $ds . $lang . '.php';
 
         if (!EnvHelpers::file_exists($lang_file_location)) {
             throw new ValidationException(sprintf("'%s' language is not supported.", $lang));

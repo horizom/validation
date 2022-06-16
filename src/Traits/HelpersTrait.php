@@ -11,7 +11,8 @@ trait HelpersTrait
      */
     protected function getMessages()
     {
-        $lang_file = __DIR__ . DIRECTORY_SEPARATOR . 'lang' . DIRECTORY_SEPARATOR . $this->lang . '.php';
+        $ds = DIRECTORY_SEPARATOR;
+        $lang_file = dirname(__DIR__) . $ds . "langs" . $ds . $this->lang . '.php';
         $messages = include $lang_file;
 
         return array_merge($messages, self::$validation_methods_errors);
