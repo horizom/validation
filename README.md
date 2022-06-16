@@ -1,8 +1,10 @@
 <p align="center"><img src="https://horizom.github.io/img/horizom-logo-color.svg" width="400"></p>
 
-[![Latest Stable Version](https://poser.pugx.org/horizom/validation/v/stable)](https://packagist.org/packages/horizom/validation)
-[![Total Downloads](https://poser.pugx.org/horizom/validation/downloads)](https://packagist.org/packages/horizom/validation)
-[![License](https://poser.pugx.org/horizom/validation/license)](https://packagist.org/packages/horizom/validation)
+<p align="center">
+<a href="https://packagist.org/packages/horizom/validation"><img src="https://poser.pugx.org/horizom/validation/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/horizom/validation"><img src="https://poser.pugx.org/horizom/validation/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/horizom/validation"><img src="https://poser.pugx.org/horizom/validation/license.svg" alt="License"></a>
+</p>
 
 # Horizom Validation
 
