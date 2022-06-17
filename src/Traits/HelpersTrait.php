@@ -2,6 +2,8 @@
 
 namespace Horizom\Validation\Traits;
 
+use Horizom\Validation\ValidationException;
+
 trait HelpersTrait
 {
     /**
