@@ -274,6 +274,18 @@ class Validation
     }
 
     /**
+     * Validate
+     */
+    function make(array $data = [], array $rules = [], array $messages = [], array $filters = [], array $customAttributes = [])
+    {
+        $this->rules($rules);
+        $this->filters($filters);
+        $this->messages($messages);
+
+        return $this->run($data, $customAttributes);
+    }
+
+    /**
      * Run the filtering and validation after each other.
      *
      * @param array  $data
